@@ -34,10 +34,10 @@ python3 team18/main.py
 ### Documentation
 
 ```console 
-Problem Statement
-Strategies Ecplored
+Problem Statement + Solution
+Strategies Explored - Why Qubo 
 System Design/ Archi
-Implementation
+Demo
 Impact
-Future Work Scope
+Future Work Scope -Scalability
 ```
