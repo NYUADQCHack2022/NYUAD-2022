@@ -1,0 +1,26 @@
+const colors={
+    primary:'#879EF1',
+    primaryButton:'#9371F2',
+    red:'#FF0033',
+    green:'#02CE85',
+    grey:'#9C9DAE',
+    white:'#fff',
+    black:'#4B4B4B',
+    lightBlack:'#333',
+    lighterBlack:'#666',
+    f2:'#f2f2f2',
+    background:'#f2f2f2',
+    f9:'#f9f9f9',
+    lightPink:'#FFF2F4',
+    lightRed:'#FF9AAF',
+    darkGrey:'#989898',
+    lightGrey:'#D8D8D8',
+    lightSilver:'#f0f0f0',
+    lighterSilver:'#f6f4f5',
+    silver:'#ebebeb',
+    orange:'#FFA500',
+    darkRed:'#D60A0A',
+    vinous:'#940101',
+    greyBlue:'#f2f3f7'
+}
+export default colors
