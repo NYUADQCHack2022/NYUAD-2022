@@ -27,12 +27,15 @@ cd NYUAD-2022/team5
 ```
 Steps to run
 ```console
-
+yarn android
 ```
-
-Execute the Python script
-```console 
-
+or
+```console
+ npx react-native start
+```
+then
+```console
+ npx react-native run-android
 ```
 
 ### Documentation
