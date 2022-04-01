@@ -1,5 +1,7 @@
 # NYUAD Hackathon for social good in the arab world
-## Team 5 - Life
+## Team 5 - Hayat( Life)
+
+### Documentation
 
 ### People
 
@@ -43,13 +45,26 @@ then
  npx react-native run-android
 ```
 
-### Documentation
+ 
+### Problem Statement + Solution
 
-```console 
-Problem Statement + Solution
-Strategies Explored - Why Qubo 
-System Design/ Archi
-Demo
-Impact
-Future Work Scope -Scalability
+### Strategies Explored - Why Qubo
+
+#### Data
+
+The used database is MongoDB, the choice was made due to the dynamicity of the database, & the better searching speeds of it.
+
+Each data entry has 5 values (meaning we have 5 columns)
+First Name : (String).
+Last Name : (String).
+Key : (Integer) special ID of the patient (unique).
+Compatibility rate : (Dictionary) where the key is the kidney ID, and the value is the compatibility rate of the patient with that kidney.
+Priority : (Integer) Priority of the person from 1 to 5.
+Distance : (Integer) The distance between the patient and the medical center.
+
+### Demo
+
+### Future Work Scope -Scalability
+
+### Impact
 ```
