@@ -33,6 +33,10 @@ const HomeScreen = ({ navigation }) => {
   const isDarkMode = useColorScheme() === 'dark';
   const { width, height } = useDimensions().window
 
+  const [show, setShow] = React.useState(false);
+
+  const handleClick = () => setShow(!show);
+
 
   useEffect(() => {
 
@@ -46,7 +50,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <ScrollView style={{ backgroundColor: colors.primary }}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <View style={{paddingTop:74}}>
+      <View style={{ paddingTop: 74 }}>
         <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
 
           <KeyboardAvoidingView style={{ backgroundColor: colors.white, justifyContent: 'center', alignItems: 'center', width: '90%', borderRadius: 25, marginTop: 40 }}>
@@ -78,6 +82,7 @@ const HomeScreen = ({ navigation }) => {
 
               <Input
                 variant="rounded"
+                type={show ? "text" : "password"}
                 w={{
                   base: "70%",
                   md: "25%"
@@ -87,7 +92,7 @@ const HomeScreen = ({ navigation }) => {
                   <Icon as={<FontAwesome5 name="key" />} size={4} ml="2" color="muted.400" />
                 }
                 InputRightElement={
-                  <Icon as={<MaterialIcons name="visibility-off" />} size={5} mr="2" color="muted.400" />
+                  <Icon onPress={() => handleClick()} as={<MaterialIcons name="visibility-off" />} size={5} mr="2" color="muted.400" />
                 }
                 placeholder="Password"
               />

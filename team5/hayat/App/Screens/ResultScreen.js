@@ -27,23 +27,59 @@ const ResultScreen = ({ route, navigation }) => {
     const { width, height } = useDimensions().window
     const arr = [
         {
-            "name": 'Mohammad Muhsen',
-            "pID": '696',
-            "kID": 'Kidney 983',
-            "p": 'Priority 1',
-            "d": 'Distance 157Km'
+            "name": 'Mohammad Khaled',
+            "pID": '5861',
+            "kID": 'Kidney 468',
+            "p": 'Priority 3',
+            "d": 'Distance 12Km'
         }, {
-            "name": 'Maryam Almetnawy',
-            "pID": '54',
-            "kID": 'Kidney 54',
-            "p": 'Priority 2',
-            "d": 'Distance 127Km'
+            "name": 'Pari Sharma',
+            "pID": '9773',
+            "kID": 'Kidney 381',
+            "p": 'Priority 3',
+            "d": 'Distance 1293Km'
         }, {
-            "name": 'Min wu Kim',
-            "pID": '111',
-            "kID": 'Kidney 123',
+            "name": 'Sarah Ahmad',
+            "pID": '7808',
+            "kID": 'Kidney 210',
+            "p": 'Priority 5',
+            "d": 'Distance 1200Km'
+        }, {
+            "name": 'Angel Priya',
+            "pID": '8956',
+            "kID": 'Kidney 450',
             "p": 'Priority 1',
-            "d": 'Distance 10Km'
+            "d": 'Distance 150Km'
+        }, {
+            "name": 'Peter L',
+            "pID": '555',
+            "kID": 'Kidney 121',
+            "p": 'Priority 1',
+            "d": 'Distance 52Km'
+        }, {
+            "name": 'Meg Q',
+            "pID": '556',
+            "kID": 'Kidney 122',
+            "p": 'Priority 1',
+            "d": 'Distance 554Km'
+        }, {
+            "name": 'Mahmoud Ahmad',
+            "pID": '557',
+            "kID": 'Kidney 185',
+            "p": 'Priority 1',
+            "d": 'Distance 55Km'
+        }, {
+            "name": 'John R',
+            "pID": '558',
+            "kID": 'Kidney 956',
+            "p": 'Priority 1',
+            "d": 'Distance 6Km'
+        }, {
+            "name": 'Harry Potter',
+            "pID": '112',
+            "kID": 'Kidney 654',
+            "p": 'Priority 1',
+            "d": 'Distance 15Km'
         }
     ]
     const [modal, setModal] = useState(false)
@@ -57,6 +93,25 @@ const ResultScreen = ({ route, navigation }) => {
 
 
     }, [])
+
+    // const getData = async () => {
+    //     let uri = ''
+    //     let response = await fetch(uri,
+    //       {
+    //         method: 'GET',
+    //         // headers: {
+    //         //   Accept: 'application/json',
+    //         //   'Content-Type': 'application/json',
+    //         //   'Authorization': 'Bearer '
+    //         // },
+    //       }
+    //     )
+    //     let result = await response.json();
+    //     arr = result
+    //   }
+
+
+
 
     return (
         <View style={{ flex: 1, backgroundColor: colors.primary }}>
@@ -75,7 +130,7 @@ const ResultScreen = ({ route, navigation }) => {
                                     </Text>
 
                                     <Text style={{ color: colors.green, fontSize: 14 }}>
-                                        Assigned Kidney  {item.kID}
+                                        Assigned {item.kID}
 
                                     </Text>
 
@@ -91,10 +146,10 @@ const ResultScreen = ({ route, navigation }) => {
                     numColumns={1}
                     key={1}
                     ItemSeparatorComponent={() => { return (<View style={{ borderBottomColor: colors.lightGrey, borderBottomWidth: 1 }} />) }}
-                // refreshing={lazyLoading}
-                // onEndReached={() => lazyLoad()}
-                // onEndReachedThreshold={0.01}
-                // ListFooterComponent={() => renderFooter(lazyLoading)}
+                    // refreshing={lazyLoading}
+                    // onEndReached={() => lazyLoad()}
+                    // onEndReachedThreshold={0.01}
+                    // ListFooterComponent={() => renderFooter(lazyLoading)}
                 />
 
 
