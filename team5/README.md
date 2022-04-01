@@ -3,18 +3,23 @@
 
 ### People
 
-  Scott Oshiro (Mentor), Stanford University, USA
-  Aishwarya Sahai (Mentor), University of Massachusetts Amherst, USA
-  Ouassim Hamdani, Student, ESTIN, Algeria
-  Maryam Almetnawy, Student, Ajman University, US, UAE
-  Minwu Kim, Student, NYU Abu Dhabi, United Arab Emirates
-  Runyao Fan, Student, NYUAD,UAE
-  Swaraj Purohit, student, Dr. Vishwanath Karad Mit World Peace University, India
-  Mohammad issam aref muhsen, Student, Applied science private university, Jordan
-  Ahmad Fraij, student,  NYUAD, Abu Dhabi
+-  Scott Oshiro (Mentor), Stanford University, USA
+-  Aishwarya Sahai (Mentor), University of Massachusetts Amherst, USA
+-  Ouassim Hamdani, Student, ESTIN, Algeria
+-  Maryam Almetnawy, Student, Ajman University, US, UAE
+-  Minwu Kim, Student, NYU Abu Dhabi, United Arab Emirates
+-  Runyao Fan, Student, NYUAD,UAE
+-  Swaraj Purohit, student, Dr. Vishwanath Karad Mit World Peace University, India
+-  Mohammad issam aref muhsen, Student, Applied science private university, Jordan
+-  Ahmad Fraij, student,  NYUAD, Abu Dhabi
 
 
 ### Getting started
+
+Setting up React native CLI development environment
+```console 
+https://reactnative.dev/docs/environment-setup
+```
 
 Clone this repository
 ```console 
@@ -23,7 +28,7 @@ git clone https://github.com/NYUADQCHack2022/NYUAD-2022
 
 Move to the `team5` folder
 ```console
-cd NYUAD-2022/team5
+cd .\NYUAD-2022\team5\hayat\
 ```
 Steps to run
 ```console
