@@ -5,6 +5,7 @@
 
 - Scott Oshiro (Mentor), Stanford University, USA
 - Aishwarya Sahai (Mentor), University of Massachusetts Amherst, USA
+- Ouassim Hamdani (Student), École supérieure en sciences et technologies de l'informatique et du numérique (ESTIN), Algeria
 ```
 Add yourself here
 ```
